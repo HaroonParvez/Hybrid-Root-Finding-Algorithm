@@ -31,7 +31,7 @@ Hybrid_Function(f, bounds=None, fp=None, x0=None, iterations=100, tol=1.0e-8)
 
 ## 📁 Project Contents
 
-- `Hybrid_Root_Finding_Algorithm.ipynb` — Full notebook containing:
+- `hybrid_root_finder_report.ipynb` — Full notebook containing:
   - Function implementation  
   - Mathematical explanation  
   - Test cases and results  
@@ -53,6 +53,11 @@ f = lambda x: x**2 - 2
 fp = lambda x: 2*x
 root, iters = Hybrid_Function(f, bounds=(0, 2), fp=fp, x0=1.5)
 print(f"Root: {root}, Iterations: {iters}")
+```
+
+### Output:
+```
+Root: 1.4142135623746899, Iterations: 4
 ```
 
 ---
