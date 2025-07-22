@@ -31,7 +31,7 @@ Hybrid_Function(f, bounds=None, fp=None, x0=None, iterations=100, tol=1.0e-8)
 
 ## 📁 Project Contents
 
-- `hybrid_root_finder_report.ipynb` — Full notebook containing:
+- `Hybrid_Root_Finding_Algorithm.ipynb` — Full notebook containing:
   - Function implementation  
   - Mathematical explanation  
   - Test cases and results  
